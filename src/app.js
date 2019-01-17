@@ -17,6 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 todoController(app);
 
+console.log(`${__dirname}\\views`);
+
 app.get('/', (req, res) => {
   res.send('Welcome');
 });

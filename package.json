@@ -9,7 +9,7 @@
     "lint": "eslint ./src",
     "fix": "eslint ./src --fix",
     "build": "babel ./src -d ./build --source-maps",
-    "start": "node ./build/app",
+    "start": "npm run dev",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "keywords": [
