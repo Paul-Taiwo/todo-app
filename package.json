@@ -9,7 +9,7 @@
     "lint": "eslint ./src",
     "fix": "eslint ./src --fix",
     "build": "babel ./src -d ./build --source-maps",
-    "start": "npm run dev",
+    "start": "node ./build/app",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "keywords": [
@@ -22,7 +22,9 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.4"
+    "fancy-log": "^1.3.3",
+    "mongoose": "^5.4.4",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
