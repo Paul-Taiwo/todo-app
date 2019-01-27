@@ -11,7 +11,6 @@ const PORT = process.env.PORT || 4040;
 
 const viewsFolder = path.format({
   dir: 'C:\\Users\\Paul Taiwo\\Documents\\web files\\todo-app\\src\\views',
-
 });
 
 log.info();
